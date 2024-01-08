@@ -74,6 +74,9 @@ main {
 /* Category area Css Ends */
 
 /* Party area css starts */
+.party-area {
+  margin-bottom: 120px;
+}
 .party-content {
   background-image: url("./resources/Vectorrr.png");
   min-height: 600px;
@@ -85,8 +88,15 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 20px;
 }
-.party-content h3 {
+.party-text {
+  padding-left: 140px;
+}
+.party-image img {
+  padding-right: 140px;
+}
+.party-text h3 {
   color: #fff;
   font-size: 64px;
   font-weight: 900;
@@ -94,17 +104,62 @@ main {
   letter-spacing: 7.04px;
   margin-bottom: 24px;
 }
-.party-content p {
+.party-text p {
   color: #ffffff;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 48px;
 }
-.party-content button {
-  padding: 5px 10px;
+.party-text button {
+  padding: 6px 12px;
+  border-radius: 16px;
   color: #ffffff;
   background-color: #f00;
   border: 0;
+  cursor: pointer;
 }
 /* Party Area css Ends */
+
+/* Portfolio area css starts */
+.portfolio-area {
+  margin-bottom: 120px;
+}
+.portfolio-text h5 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.portfolio-text h3 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.portfolio-text p {
+  color: #212121;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 48px;
+}
+.portfolio-images img {
+  transition: 0.4s;
+}
+.portfolio-images img:hover {
+  padding: 20px 10px;
+  opacity: 0.8;
+}
+.first-images {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.last-images {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+/* Portfolio area css ends */
