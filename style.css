@@ -9,15 +9,16 @@ main {
 
 /* Banner area Css */
 .banner-area {
-  margin-bottom: 130px;
+  margin-bottom: 120px;
   margin-top: 50px;
 }
 .banner-content {
   background-image: url("./resources/Banner\ Image.png");
-  height: 600px;
-  width: 1320px;
+  min-height: 600px;
+  min-width: 1320px;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   border-radius: 16px;
   display: flex;
   align-items: center;
@@ -41,6 +42,9 @@ main {
 /* Banner Area CSS Ends */
 
 /* Category Area Css Starts */
+.category-area {
+  margin-bottom: 120px;
+}
 .category-content {
   text-align: center;
 }
@@ -62,5 +66,45 @@ main {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 55px;
+  text-transform: uppercase;
+}
+.category-content img {
+  width: auto;
 }
 /* Category area Css Ends */
+
+/* Party area css starts */
+.party-content {
+  background-image: url("./resources/Vectorrr.png");
+  min-height: 600px;
+  min-width: 1320px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.party-content h3 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+.party-content p {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 48px;
+}
+.party-content button {
+  padding: 5px 10px;
+  color: #ffffff;
+  background-color: #f00;
+  border: 0;
+}
+/* Party Area css Ends */
