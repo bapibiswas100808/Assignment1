@@ -1,0 +1,66 @@
+/* Basic Css */
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  margin: 0 140px;
+}
+
+/* Banner area Css */
+.banner-area {
+  margin-bottom: 130px;
+  margin-top: 50px;
+}
+.banner-content {
+  background-image: url("./resources/Banner\ Image.png");
+  height: 600px;
+  width: 1320px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-text {
+  color: #ffff;
+  height: 246px;
+  width: 632px;
+  text-align: center;
+}
+.banner-text p {
+  font-size: 32px;
+  font-weight: 400;
+}
+.banner-text h1 {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+/* Banner Area CSS Ends */
+
+/* Category Area Css Starts */
+.category-content {
+  text-align: center;
+}
+.category-content h1 {
+  color: #f00;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.category-content p {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.category-content h3 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+/* Category area Css Ends */
