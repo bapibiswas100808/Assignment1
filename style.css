@@ -5,7 +5,28 @@
 }
 main {
   margin: 0 140px;
-  font-family: "Roboto", sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather";
+}
+p,
+h1,
+button,
+input {
+  font-family: "Inter";
+}
+.btn {
+  transition: 0.3s;
+  font-size: 18px;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #f00;
 }
 
 /* Banner area Css */
@@ -115,7 +136,7 @@ main {
   margin-bottom: 48px;
 }
 .party-text button {
-  padding: 10px 15px;
+  padding: 10px 20px;
   border-radius: 16px;
   color: #ffffff;
   background-color: #f00;
@@ -273,7 +294,7 @@ main {
   font-size: 24px;
   font-weight: 500;
   line-height: 40px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter";
 }
 .footer-top {
   display: flex;
