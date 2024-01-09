@@ -121,6 +121,54 @@ main {
 }
 /* Party Area css Ends */
 
+/* offer area css starts */
+.offer-area {
+  margin-bottom: 120px;
+}
+.offer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+.offer-left h5 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.offer-left h3 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.offer-left p {
+  color: #07021199;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.offer-middle img {
+  border: 15px solid #f00;
+  border-radius: 50%;
+  padding: 35px;
+}
+.offer-right h3 {
+  color: #f00;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.offer-right p {
+  color: #07021199;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 43px;
+}
+/* offer area css ends */
+
 /* Portfolio area css starts */
 .portfolio-area {
   margin-bottom: 120px;
@@ -128,7 +176,7 @@ main {
 .portfolio-text h5 {
   color: #f00;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 16px;
 }
 .portfolio-text h3 {
